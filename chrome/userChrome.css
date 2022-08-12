@@ -4,6 +4,44 @@
 @import "tabbar/tabbar.css";
 @import "navbar/navbar.css";
 @import "personalbar/personalbar.css";
-@import "popup/popup.css";
+/*@import "popup/popup.css";*/ /*Currently commented out as it is broken and only adds a border around the context menu*/
 @import "urlbar/urlbar.css";
 @import "findbar/findbar.css";
+
+/*close multiple tabs to the right first to be the first option*/
+menuitem#context_closeTabsToTheEnd {-moz-box-ordinal-group:0;}
+
+/*fix the minimize-maximize-close buttons height*/
+.titlebar-buttonbox-container{transform: translateY(-12px) !important;}
+
+/*remove highlighted tab border*/
+#navigator-toolbox {
+--lwt-tabs-border-color: transparent !important; }
+#tabbrowser-tabs {
+--lwt-tab-line-color: transparent !important; }
+
+/*edit URL in bookmark star icon*/
+#editBMPanel_locationRow {
+  visibility: visible !important;
+}
+
+/*move speaker icon to the left of favicon*/
+.tabbrowser-tab:not([pinned]) .tab-icon-stack:is([muted],[soundplaying],[activemedia-blocked]){
+  grid-template-areas: "a s";
+}
+.tabbrowser-tab:not([pinned]) .tab-icon-overlay:is([muted],[soundplaying],[activemedia-blocked]){ grid-area: s; }
+.tab-icon-overlay,
+.tab-icon-image,
+.tab-throbber{ opacity: 1 !important; }
+
+.tab-icon-overlay:not([pinned]){
+  padding: 0px !important;
+  margin-inline: 2px -6px !important;
+}
+.tab-secondary-label{ display: none }
+.tab-secondary-label[pictureinpicture]{ display: -moz-box }
+
+/*move multi-account containers color to the bottom of the tab*/
+.tab-context-line {
+  margin: var(--tab-min-height) var(--inline-tab-padding) 0 !important;
+}
