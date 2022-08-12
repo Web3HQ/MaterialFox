@@ -3,7 +3,7 @@
 
 ![Preview](https://user-images.githubusercontent.com/5405629/45172944-21d91900-b24a-11e8-8bc5-03814121b0de.png)
 
-I did not make this theme, this is only a fork of the original repo (https://github.com/muckSponge/MaterialFox) that fixes some of the issues with the newer firefox versions.
+I did not make this theme, this is only a fork of the original repo (https://github.com/muckSponge/MaterialFox) that fixes some of the issues with the newer firefox versions and adds some improvments such as bookmarks folder icon.
 
 If you would like to support the original creator:
 
