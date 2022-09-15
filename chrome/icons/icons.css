@@ -279,6 +279,11 @@ richlistitem[originaltype="loginsFooter"] .ac-site-icon
 	fill: currentColor !important;
 }
 
+#personal-bookmarks .bookmark-item
+{
+	list-style-image: url(bookmarkfolder.svg) !important; 
+}
+
 /* high DPI adjustments */
 @media (min--moz-device-pixel-ratio: 2)
 {
@@ -328,8 +333,8 @@ richlistitem[originaltype="loginsFooter"] .ac-site-icon
 	#library-button
 	{
 		list-style-image: url(library-2x.svg) !important;
-	}
-	
+	}	
+
 	#personal-bookmarks .bookmark-item
 	{
 		list-style-image: url(bookmarkfolder.svg) !important; 
