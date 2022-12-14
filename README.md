@@ -35,3 +35,4 @@ Replicate Chrome's "Not Secure" text on HTTP:
 * Some customisation settings may no longer work (such as compact/touch density).
 * Some custom themes may clash with the address bar.
 * Some themes using transparency might not work.
+* Remove "Firefox View" icon as it will break everything. You can remove the icon in: More Tools -> Customize Toolbar
