@@ -207,7 +207,7 @@
 /* special case for urlbar buttons */
 :-moz-any(#urlbar, #searchbar)
 {
-	--toolbarbutton-hover-background: hsl(210, 5%, 85%) !important;
+	--toolbarbutton-hover-background: hsl(210, 5%, 26%) !important;
 	--toolbarbutton-active-background: hsl(210, 4%, 80%) !important;
 }
 
