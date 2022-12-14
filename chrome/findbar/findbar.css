@@ -49,11 +49,11 @@ hbox[anonid="findbar-textbox-wrapper"] toolbarbutton
 	border: 0 !important;
 	width: 24px !important;
 	height: 24px !important;
-	padding: 0 !important;
+	padding: 4px !important;
 	display: flex !important;
 	background: 0 !important;
 	transition: background-color .2s var(--ease-basic) !important;
-	margin: 0 !important;
+	margin: 2px !important;
 	box-shadow: none !important;
 }
 
