@@ -372,7 +372,10 @@
 
 .tab-sharing-icon-overlay
 {
-	margin-inline-start: -16px !important;
+    	margin: -6px !important;
+	margin-inline-start: 22px !important;
+	margin-inline-end: -8px !important;
+	grid-area: s !important;
 }
 
 @keyframes rotate-360
