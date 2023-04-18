@@ -795,6 +795,34 @@
 	--warning-icon: url(connection-warning-1x.svg);
 }
 
+#eme-notification-icon
+{
+	margin: 0 !important;
+	padding: 0 !important;
+	transform: translateY(-6px) !important;
+	padding-inline: 4px !important;
+}
+
+#webRTC-shareMicrophone-notification-icon
+{
+	margin: 0 !important;
+	padding: 0 !important;
+	transform: translateY(-6px) !important;
+}
+
+#web-notifications-notification-icon
+{
+	margin: 0 !important;
+	padding: 0 !important;
+	transform: translateY(-6px) !important;
+	padding-inline: 2px !important;
+}
+
+#notification-popup-box
+{
+	background-color: transparent !important;
+}
+
 #urlbar,
 #searchbar
 {
