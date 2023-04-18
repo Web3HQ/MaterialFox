@@ -8,7 +8,7 @@
 @import "urlbar/urlbar.css";
 @import "findbar/findbar.css";
 
-/*close multiple tabs to the right first to be the first option*/
+/*close multiple tabs to the right to be the first option*/
 menuitem#context_closeTabsToTheEnd {-moz-box-ordinal-group:0;}
 
 /*fix the minimize-maximize-close buttons height*/
@@ -23,6 +23,14 @@ menuitem#context_closeTabsToTheEnd {-moz-box-ordinal-group:0;}
 /*edit URL in bookmark star icon*/
 #editBMPanel_locationRow {
   visibility: visible !important;
+}
+
+/*remove set as desktop background and send image, video, audio to email from context menu*/
+#context-sendimage,
+#context-sendvideo,
+#context-sendaudio,
+#context-setDesktopBackground {
+  display: none !important;
 }
 
 /*move speaker icon to the left of favicon*/
@@ -41,7 +49,7 @@ menuitem#context_closeTabsToTheEnd {-moz-box-ordinal-group:0;}
 .tab-secondary-label{ display: none }
 .tab-secondary-label[pictureinpicture]{ display: -moz-box }
 
-/*move multi-account containers color to the bottom of the tab*/
+/*move multi-account containers tab color to the bottom of the tab*/
 .tab-context-line {
   margin: var(--tab-min-height) var(--inline-tab-padding) 0 !important;
 }
