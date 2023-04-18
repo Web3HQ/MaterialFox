@@ -53,3 +53,13 @@ menuitem#context_closeTabsToTheEnd {-moz-box-ordinal-group:0;}
 .tab-context-line {
   margin: var(--tab-min-height) var(--inline-tab-padding) 0 !important;
 }
+
+/*Transition color while opening websites - disable if you like flashbangs */
+.browserContainer { background-color: #272b36 !important; }
+#browser vbox#appcontent tabbrowser,
+#content,
+#tabbrowser-tabpanels,
+browser[type="content-primary"],
+browser[type="content"] > html {  
+background: #272b36 !important;
+}
