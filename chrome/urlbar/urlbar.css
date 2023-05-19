@@ -156,6 +156,7 @@
 #urlbar-container
 {
 	max-height: 36px !important;
+	margin-top: 8px !important;
 }
 
 #urlbar,
