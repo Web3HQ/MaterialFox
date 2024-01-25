@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "MaterialFox",
+  "version": "1.0",
+  "theme": {
+    "images": {
+      "theme_frame": "path/to/frame/image.png",
+      "additional_backgrounds": ["path/to/other/images.png"]
+    },
+    "colors": {
+      "frame": "rgb(255, 255, 255)",
+      "tab_background_text": "rgb(0, 0, 0)"
+    }
+  },
+  "applications": {
+    "gecko": {
+      "id": "materialfox@web3hq.eth"
+    }
+  }
+}
